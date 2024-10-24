@@ -10,7 +10,7 @@ export const styles = StyleSheet.create({
     backgroundColor:Colors.themeColor
   },
   welcomeText: {
-    color: "#fff",
+    color:Colors.light,
     fontSize: SF(7),
     marginBottom: SH(2),
     fontWeight:"bold",
@@ -38,12 +38,12 @@ export const styles = StyleSheet.create({
     borderRadius: SW(20),
   },
   buttonText: {
-    color: "#fff",
+    color:Colors.light,
     textAlign: "center",
     fontSize: SF(5),
   },
   SignUpText: {
-    color: "#000",
+    color:Colors.dark,
     textAlign: "center",
     fontSize: SF(5),
   },

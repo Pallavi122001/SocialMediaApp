@@ -1,14 +1,20 @@
-import { StyleSheet} from 'react-native'
-import { SH,SW } from '../../utils/FontDimension';
+import { StyleSheet } from 'react-native';
+import { SH, SW, SF } from '../../utils/FontDimension';
+import { Colors } from '../../utils/Colors';
+
 const styles = StyleSheet.create({
-    contanier:{
-        flex:1,
-        backgroundColor:"#fff",
+    container: { 
+        flex: 1,
+        backgroundColor: Colors.light,
+        justifyContent: 'center',
+        alignItems: 'center'
     },
-    lottie:{
-         width:SW(100),
-         height:SH(100)
-    }
-})
+    lottie: {
+        width: SW(120),
+        height: SH(70),
+        alignItems: "center",
+        resizeMode:"contain"
+    },
+});
 
 export default styles;

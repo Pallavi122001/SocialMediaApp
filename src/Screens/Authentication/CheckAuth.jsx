@@ -1,13 +1,10 @@
 import { StyleSheet, Text, View, TouchableOpacity, Image } from 'react-native'
 import React from 'react'
-import { Colors } from '../../utils/Colors'
-import LinearGradient from 'react-native-linear-gradient';
 import { styles } from '../styles/CheckAuthcss';
 import LottieView from 'lottie-react-native';
-
 const CheckAuth = ({navigation}) => {
     const handleSignIn = () => {
-        navigation.navigate('login');
+        navigation.navigate('Login');
     };
 
     const handleSignUp = () => {
@@ -19,7 +16,7 @@ const CheckAuth = ({navigation}) => {
       <View style={styles.welcomeContainer}>
       <View>
           <LottieView
-              source={require('../../Images/logo.json')}
+              source={require('../../Images/social_app.json')}
               autoPlay
               loop
               style={styles.icon}
